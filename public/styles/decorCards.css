@@ -1,10 +1,20 @@
 
 
+
 .tilesWrap {
 	padding: 0;
 	margin: 50px auto;
 	list-style: none;
 	text-align: center;
+  z-index: +1;
+}
+
+#qualBefore {
+	padding: 0;
+	margin: 50px auto;
+	list-style: none;
+	text-align: center;
+  z-index: +1;
 }
 
 .tilesWrap li {
@@ -28,17 +38,28 @@
 	position: relative;
 	vertical-align: top;
 	margin: 0px 30px 0px 30px;
-	/* font-family: 'helvetica', san-serif; */
+	font-family:"Century",serif;
 	min-height: 300px;
   max-height: 300px;
   min-width: 280px;
   max-width: 280px;
 
-	background: #cfdeee;
+	background: #F0F8FF;
+	border: 1px solid #262a2b;
+	text-align: left;
+}
+
+#qualTile{
+  display: inline-block;
+	width: 90%;
+	padding: 30px 80px 40px 20px;;
+	position: relative;
+	vertical-align: top;
+	margin: 10px;
+	font-family:"Century",serif;
+	background: #F0F8FF;
 	border: 1px solid #252727;
 	text-align: left;
-
-  box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0);
 }
 
 .tilesWrap li h2 {
@@ -77,7 +98,7 @@
 	right: -2px;
 	bottom: -2px;
 	z-index: -1;
-	background: #fff;
+	background: #778899;
 	transform: skew(2deg, 2deg);
 }
 .tilesWrap li:after {
@@ -90,24 +111,37 @@
 	background: rgba(255, 255, 255, 0.02);
 }
 
+/* This one is for the tiles in Skills */
 
-.tilesWrap li:nth-child(1):before {
-	background: #C9FFBF;
-background: -webkit-linear-gradient(to right, #778899, #778899);
-background: linear-gradient(to right, #778899, #778899);
+.tilesWrap #innerTile:after, .tilesWrap #qualTile:after {
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(255, 255, 255, 0.4);
 }
-.tilesWrap li:nth-child(2):before {
-	background: #f2709c;
-background: -webkit-linear-gradient(to right, #778899, #778899);
-background: linear-gradient(to right, #778899, #778899);
+
+.tilesWrap #innerTile:before, .tilesWrap #qualTile:before   {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	z-index: -1;
+	background: #3b78ee;;
+	transform: skew(2deg, 2deg);
 }
-.tilesWrap li:nth-child(3):before {
-	background: #c21500;
-background: -webkit-linear-gradient(to right, #778899, #778899);
-background: linear-gradient(to right, #778899, #778899);
+
+#textOntop{
+  position:absolute;
+  z-index: 1;
+
 }
-.tilesWrap li:nth-child(4):before {
-	background: #FC354C;
-background: -webkit-linear-gradient(to right, #778899, #778899);
-background: linear-gradient(to right, #778899, #778899);
+
+#moveUp {
+  position:relative;
+  z-index: +1;
 }
