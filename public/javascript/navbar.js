@@ -3,7 +3,7 @@ $(function(){
   $(document).ready(function(){
     var i, stop;
     i = 1;
-    stop = 4; //num elements
+    stop = 5; //num elements
     setInterval(function(){
       if (i > stop){
         return;
@@ -12,3 +12,9 @@ $(function(){
     }, 500)
   });
 });
+
+
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

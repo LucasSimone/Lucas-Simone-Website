@@ -1,0 +1,78 @@
+
+span {
+  color: ivory;
+}
+
+span.cls_002{
+  font-family:"Century Schoolbook Bold",serif;
+  font-size: min(3vw, 35px);
+  /* color:rgb(0,0,0); */
+  font-weight:bold;
+  font-style:normal;
+  text-decoration: none
+}
+
+
+span.cls_003{
+  font-family:"Century",serif;
+  font-size: min(3vw, 35px);
+  /* color:rgb(0,0,0); */
+  font-weight:normal;
+  font-style:normal;
+  text-decoration: none
+}
+
+
+span.cls_004{
+  font-family:"Century",serif;
+  font-size:min(2vw, 17.5px);
+  /* color:rgb(0,0,0); */
+  font-weight:normal;
+  font-style:normal;
+  text-decoration: none
+}
+
+span.cls_005{
+  font-family:"Century",serif;
+  font-size: min(2vw, 23.4px);
+  /* color:rgb(0,0,0); */
+  font-weight:normal;
+  font-style:normal;
+  text-decoration: none
+}
+
+
+span.cls_006{
+  font-family:"Century",serif;
+  font-size: min(1.8vw, 21px);
+  /* color:rgb(0,0,0); */
+  font-weight:normal;
+  font-style:normal;
+  text-decoration: none
+}
+
+span.cls_007{
+  font-family:"Century Schoolbook Bold",serif;
+  font-size:min(2.3vw, 26.8px);
+  /* color:rgb(0,0,0); */
+  font-weight:bold;
+  font-style:normal;
+  text-decoration: none
+}
+
+span.cls_008{
+  font-family:"Century",serif;
+  font-size: min(2vw, 23.4px);
+  /* color:rgb(0,0,0); */
+  font-weight:bold;
+  font-style:normal;
+  text-decoration: none
+}
+
+
+div.cls_006{font-family:"Century Schoolbook Bold",serif;font-size:12.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+
+/*
+span.cls_008{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+
+div.cls_008{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none} */
